@@ -1,6 +1,6 @@
-++++++++++++++++++++++
-WebUI Automation:
-++++++++++++++++++++++
+++++++++++++++++
+webui automation
+++++++++++++++++
 
 
 Installation:
@@ -31,9 +31,9 @@ Commnds to invoke automation:
 
 nosetests command:
 ********************
-1.  nosetests -s python_file.py
-2.  nosetests -s python_file.py:class_name 
-3.  nosetests -s python_file.py:class_name.function_name python_file_2.py:class_name.function_name
+1. nosetests -s python_file.py
+2. nosetests -s python_file.py:class_name 
+3. nosetests -s python_file.py:class_name.function_name python_file_2.py:class_name.function_name
 
 
 
