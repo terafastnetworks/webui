@@ -1,0 +1,4 @@
+[switch_info]
+
+host = 10.99.99.225
+Ports = 48
