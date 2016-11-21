@@ -11,9 +11,20 @@ Make sure to run "sudo apt-get update" before installing the packages.
 2. Install python-nose(apt-get install python-nose)
 3. Install git(apt-get install git)
 4. Install python pip (apt-get install python-pip)
-5. Install selenium(pip install -U selenium)
+5. Install selenium(pip install selenium==2.41)(supported firefox version : https://github.com/SeleniumHQ/selenium/blob/master/py/CHANGES)
+           * Check Selenium version
+             $ ipython
+             >>> import selenium
+             >>> help (selenium)
 6. Install xvfb(apt-get install xvfb)
 7. Install firefox(sudo apt-get install firefox=28.0+build2-0ubuntu2) Note: Make sure you have Firefox version 46.0.1 or below. 
+   NOTES:  Remove firefox 
+           * apt-get purge firefox
+           * sudo find / -name firefox , then remove all firefox directories in result of find command)
+             Eg :rm -rf /home/polatis/.mozilla/firefox
+                 rm -rf /home/polatis/.cache/mozilla/firefox
+           * Now install firefox
+           * firefox -V (check firefox version)
 8. Install vnc4server(apt-get install vnc4server)
 
 Commnds to invoke automation:
